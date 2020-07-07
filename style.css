@@ -1,0 +1,35 @@
+.carousel-indicators li {
+    background-color: #CECECE;
+    height: 10px;
+    width: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-image: linear-gradient(to right, orange, yellow);
+    width: 45px;
+}
+
+.banner-products{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.carousel-item{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    margin-bottom: 100px;
+}
+.carousel-item{
+    padding: 20px 40px; }
+
+    .card{
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px lightgray;
+    }
